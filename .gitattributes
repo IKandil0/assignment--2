@@ -30,7 +30,6 @@ Time : Q(n2)  -  Space : (Q, 1) .
 
 4.	Selection Sort : it is one of the simplest sorting algorithms , the algorithm divides the array into two parts which are sorting and unsorting, so the algorithm finds the smallest element in the unsorted part and exchanges it with the first element in the sorting part .
 
-//
 
 This algorithm works on the idea of finding the smallest or largest element among the array of unordered elements and then placing it in the appropriate position within the array .
 This algorithm is based on comparison (comparison) .
