@@ -1,2 +1,64 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+1.	Quick Sort : This sorting algorithm is called quick sort. Because it is one of the popular divide and conquer algorithms that breaks the problem down into a smaller set + this algorithm provides developers with an efficient way to sort and also is not too complicated .
+It works with the principle of (Divide and Conquer) .
+
+The problem to be solved is divided into several smaller problems in size and similar to the big problem in principle, and after solving each small problem on its own, the stage of assembling the solved parts so that they are together to solve the complete problem (Usually the small problems are independent of each other) .
+The basic stages that each algorithm goes through are : 
+1.	separation or division (The Divide Step) : at this stage, the size of the small problems is determined and into which the big problem is divided . 
+
+2.	dominion (The Conquer Step) : Small problems are solved individually .
+
+3.	assembly (The Combine Step) : Small problem solutions are grouped together that together solve the original problem .
+How it works  :
+1.	Pivot Selection : Choosing an element from the array called a )Pivot( and usually this element is at the left or right end of the array.
+2.	Partitioning : The elements of the array are arranged so that all the elements that are smaller than (Pivot) are arranged before it and the largest are placed after it, and the two steps are repeated in each new array .
+Time : (n2)  -  Space : (logn) .
+2.	Bubble Sort : The way it works is very simple because the algorithm iterates through the array and compares the adjacent elements to each other if they are in an incorrect order they are swapped out . 
+But the algorithm is not efficient and its use can cause performance issues .
+
+//
+
+This algorithm works on the idea of repeatedly comparing adjacent pairs of elements and switching the positions of these elements if they are in the wrong order .
+
+Time : Q(n2)  -  Space : (Q, 1) .
+
+
+
+3.	Insertion Sort : is another algorithm that makes it possible to sort a one-dimensional array in a simple way , as in the case of sort by selection, the array is divided into two parts, they are sorted and unsorted. Initially, the first element of the sorted portion is included. Each iteration makes a file. The algorithm takes the first element of the unsorted portion and places it in a suitable place , inside the sorted portion to leave the sorted portion in the correct order .
+This algorithm works on the idea of (input) .
+
+Time : Q(n2)  -  Space : (Q, 1) .
+
+4.	Selection Sort : it is one of the simplest sorting algorithms , the algorithm divides the array into two parts which are sorting and unsorting, so the algorithm finds the smallest element in the unsorted part and exchanges it with the first element in the sorting part .
+
+//
+
+This algorithm works on the idea of finding the smallest or largest element among the array of unordered elements and then placing it in the appropriate position within the array .
+This algorithm is based on comparison (comparison) .
+
+Time : Q(n2)  -  Space : (Q, 1) .
+
+
+
+
+Sort by speed  :-
+
+1.	Insertion Sort : The time complexity of this algorithm is O(n*2) 
+
+2.	Selection Sort : The time complexity of this algorithm is  O(n^2) , because there are two nested iterative loops .
+
+
+3.	Bubble Sort : The time complexity of this algorithm in the worst cases as well as in the medium cases is   O(n*n) , the worst case for this algorithm is when the array is in reverse order , and in the best case the time complexity of this algorithm is O(n) .
+
+
+
+
+
+
+4.	Quick Sort : It has 3 cases :
+
+1.	Worst Case : The worst case occurs when the partitioning process always selects the largest or smallest element as the pivot element . the worst case is when the array is in ascending or descending order , in which case the time complexity is O(n^2) .
+
+2.	Optimal case : The optimum case occurs when the partitioning process always chooses the middle element of the array as the pivot element .
+
+3.	Intermediate case : to calculate the time complexity in the intermediate state , all possibilities of choosing the pivot element must be considered and the time complexity of each case should be calculated . The time complexity of this case is O(nlogn) .
+
